@@ -1,20 +1,9 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import aboutCompenyTitel from '@/components/aboutCompenySection/aboutCompenTitel.vue'
+</script>
 
 <template>
   <div class="aboutCompeny">
-    <div class="welcome-wrapper">
-      <div class="background-image"></div>
-      <div class="container content-box">
-        <h1>O SPOLOČNOSTI</h1>
-        <p>LEONIDES</p>
-        <div class="ornament-wrapper">
-          <img
-            src="@/assets/elements/images/ornament.svg"
-            alt="Ornament"
-            class="img-fluid ornament"
-          />
-        </div>
-      </div>
-    </div>
+    <aboutCompenyTitel />
   </div>
 </template>
