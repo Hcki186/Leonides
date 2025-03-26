@@ -1,9 +1,9 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div class="welcome-wrapper">
+  <div class="welcome-wrapper container-md">
     <div class="background-image"></div>
-    <div class="container content-box">
+    <div class="container-lg content-box">
       <h1>O SPOLOČNOSTI</h1>
       <p>LEONIDES</p>
       <div class="ornament-wrapper">
