@@ -1,0 +1,41 @@
+.compeny-name {
+  position: relative;
+  background-image: url('@/assets/elements/images/bg-black.svg');
+  background-size: cover;
+  z-index: 1;
+  width: 100%;
+  background-repeat: no-repeat;
+
+  .orientation-section {
+    position: relative;
+  }
+
+  .background img {
+    position: absolute;
+    width: 35%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .head {
+    overflow: hidden;
+    z-index: 2;
+  }
+
+  .circles {
+    z-index: 3;
+  }
+
+  .content {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 65vh;
+    overflow: hidden;
+    position: relative;
+    z-index: 4;
+    color: white;
+  }
+}
