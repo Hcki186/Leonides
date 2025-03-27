@@ -1,9 +1,13 @@
 @forward 'variables';
+@forward 'bgImg/bgAboutCompeny';
+@forward 'bgImg/bgPeopleNeeds';
 @forward 'sideMenu/sideMenu';
 @forward 'welcomeSection/welcomeSection';
-@forward 'bgImg/bgAboutCompeny';
 @forward 'aboutCompeny/aboutCompeny';
 @forward 'aboutCompeny/aboutCompenyCard.scss';
 @forward 'aboutCompeny/aboutCompenyText';
 @forward 'imageSection/imageSection.scss';
 @forward 'compenyName/compenyName.scss';
+@forward 'peopleNeeds/peopleNeedsTitel.scss';
+@forward 'peopleNeeds/peopleNeedsCard.scss';
+@forward 'peopleNeeds/peopleNeedsText.scss';

@@ -1,0 +1,127 @@
+.people-needs {
+  width: 100%;
+
+  .container {
+    max-width: 1080px;
+    margin: 0 auto;
+  }
+
+  .needs-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    row-gap: 130px;
+    justify-content: center;
+    align-items: center;
+
+    @media (max-width: 1024px) {
+      grid-template-columns: repeat(2, 1fr);
+      justify-content: center;
+      place-items: center;
+    }
+
+    @media (max-width: 600px) {
+      grid-template-columns: repeat(1, 1fr);
+      justify-content: center;
+      place-items: center;
+    }
+  }
+
+  .need-card {
+    text-align: center;
+    width: 230px;
+    position: relative;
+    cursor: pointer;
+
+    h1 {
+      font-size: 32px;
+      text-transform: uppercase;
+      color: #6b5c4a;
+      margin-bottom: 10px;
+      position: relative;
+      top: -50px;
+    }
+
+    .underline {
+      width: 40px;
+      height: 3px;
+      background: #6b5c4a;
+      margin: 5px auto;
+      position: relative;
+      top: -50px;
+    }
+
+    .image-wrapper {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 10px;
+      width: 100%;
+      height: 230px;
+
+      &::before,
+      &::after {
+        content: '';
+        position: absolute;
+        width: 12px;
+        height: 12px;
+        border-left: 6px solid transparent;
+        border-right: 6px solid transparent;
+      }
+
+      &::before {
+        border-bottom: 10px solid #6b5c4a;
+        top: -30px;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+
+      &::after {
+        border-top: 10px solid #6b5c4a;
+        bottom: -30px;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+
+      .circle-bg {
+        position: absolute;
+        width: 100%;
+        height: auto;
+        transform: translate(-15px, -15px);
+        z-index: 0;
+      }
+
+      .need-image {
+        width: 100%;
+        height: auto;
+        border-radius: 50%;
+        position: relative;
+        z-index: 1;
+        filter: grayscale(100%);
+        transition: filter 0.3s ease;
+      }
+
+      .image-border {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        border: 5px solid #6b5c4a;
+        z-index: 2;
+        pointer-events: none;
+      }
+    }
+
+    &:hover {
+      h1,
+      .underline {
+        color: #6b5c4a;
+      }
+
+      .need-image {
+        filter: grayscale(0%);
+      }
+    }
+  }
+}

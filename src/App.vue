@@ -4,6 +4,7 @@ import welcomeSection from './components/sections/welcomeSection.vue'
 import aboutCompeny from './components/sections/aboutCompeny.vue'
 import imagesSection from './components/sections/imagesSection.vue'
 import companyName from './components/sections/companyName.vue'
+import peopleNeeds from './components/sections/peopleNeeds.vue'
 </script>
 
 <template>
@@ -13,5 +14,6 @@ import companyName from './components/sections/companyName.vue'
     <aboutCompeny />
     <imagesSection />
     <companyName />
+    <peopleNeeds />
   </div>
 </template>
