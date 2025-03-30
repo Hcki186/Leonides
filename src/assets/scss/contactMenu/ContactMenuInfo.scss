@@ -2,6 +2,11 @@
   text-align: center;
   font-size: 18px;
 
+  p strong,
+  a strong {
+    color: #a29276;
+  }
+
   a {
     text-decoration: none;
     color: inherit;

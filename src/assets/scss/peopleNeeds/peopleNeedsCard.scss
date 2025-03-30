@@ -36,7 +36,7 @@
     h1 {
       font-size: 32px;
       text-transform: uppercase;
-      color: #6b5c4a;
+      color: #a29276;
       margin-bottom: 10px;
       position: relative;
       top: -50px;
@@ -45,7 +45,7 @@
     .underline {
       width: 40px;
       height: 3px;
-      background: #6b5c4a;
+      background: #a29276;
       margin: 5px auto;
       position: relative;
       top: -50px;
@@ -71,14 +71,14 @@
       }
 
       &::before {
-        border-bottom: 10px solid #6b5c4a;
+        border-bottom: 10px solid #a29276;
         top: -30px;
         left: 50%;
         transform: translateX(-50%);
       }
 
       &::after {
-        border-top: 10px solid #6b5c4a;
+        border-top: 10px solid #a29276;
         bottom: -30px;
         left: 50%;
         transform: translateX(-50%);
@@ -86,9 +86,8 @@
 
       .circle-bg {
         position: absolute;
-        width: 100%;
+        width: 15%;
         height: auto;
-        transform: translate(-15px, -15px);
         z-index: 0;
       }
 
@@ -107,7 +106,7 @@
         width: 100%;
         height: 100%;
         border-radius: 50%;
-        border: 5px solid #6b5c4a;
+        border: 5px solid #a29276;
         z-index: 2;
         pointer-events: none;
       }
@@ -116,7 +115,7 @@
     &:hover {
       h1,
       .underline {
-        color: #6b5c4a;
+        color: #db6c3f;
       }
 
       .need-image {
