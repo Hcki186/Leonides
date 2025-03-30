@@ -27,11 +27,14 @@ const images = reactive([
       </div>
 
       <!-- Obrazok 02 s overlay -->
-      <div class="image-overlay">
+
+      <div class="image-container">
         <img :src="images[1].src" :alt="images[1].alt" class="image" />
-        <div class="overlay-text">
-          <span>ZMEN SVOJ ŽIVOT</span>
-          <span class="bold-text">VO SVOJEJ KARIÉRE</span>
+        <div class="hover-overlay">
+          <p class="hover-text">
+            Zmeň svoj život <br />
+            <strong>vo svojej kariére</strong>
+          </p>
         </div>
       </div>
 
