@@ -1,0 +1,9 @@
+.back-ground {
+  position: relative;
+  background-image: url('@/assets/elements/images/bg-black.svg');
+  background-size: cover;
+  z-index: -1;
+  width: 100%;
+  background-repeat: no-repeat;
+  top: -10px;
+}

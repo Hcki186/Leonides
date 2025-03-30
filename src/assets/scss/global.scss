@@ -1,6 +1,8 @@
 @forward 'variables';
 @forward 'bgImg/bgAboutCompeny';
 @forward 'bgImg/bgPeopleNeeds';
+@forward 'bgImg/bgAboutContact';
+@forward 'bgImg/bgContactMenu';
 @forward 'sideMenu/sideMenu';
 @forward 'welcomeSection/welcomeSection';
 @forward 'aboutCompeny/aboutCompeny';
@@ -11,3 +13,8 @@
 @forward 'peopleNeeds/peopleNeedsTitel.scss';
 @forward 'peopleNeeds/peopleNeedsCard.scss';
 @forward 'peopleNeeds/peopleNeedsText.scss';
+@forward 'googleMaps/googleMaps.scss';
+@forward 'contactMenu/ContactMenuTitel.scss';
+@forward 'contactMenu/ContactMenuInfo.scss';
+@forward 'contactMenu/ContactMenuInput.scss';
+@forward 'contactMenu/contactMenuFooter.scss';
