@@ -1,9 +1,9 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div class="welcome-wrapper container-md">
+  <div class="welcome-wrapper">
     <div class="background-image"></div>
-    <div class="container-lg content-box">
+    <div class="content-box">
       <h1>POTREBY ĽUDÍ</h1>
       <p>LEONIDES</p>
       <div class="ornament-wrapper">

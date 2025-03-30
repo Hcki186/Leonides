@@ -3,7 +3,7 @@
     position: relative;
     display: grid;
     place-items: center;
-    height: 65vh;
+    height: 94vh;
     overflow: hidden;
     h1 {
       margin-bottom: 5px;
@@ -11,7 +11,7 @@
     }
 
     p {
-      font-size: 1.7em;
+      font-size: 1.4em;
       margin-top: 0;
       line-height: 1.1;
     }
@@ -26,7 +26,8 @@
     height: 100%;
     max-height: 400px;
     background: url('@/assets/elements/images/header-about.png') no-repeat center;
-    background-size: contain;
+    background-size: 80%;
+
     transform: translate(-50%, -50%);
     z-index: -1;
   }

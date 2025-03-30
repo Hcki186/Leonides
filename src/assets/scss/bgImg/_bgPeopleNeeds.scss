@@ -5,6 +5,12 @@
   background-repeat: no-repeat;
   width: 100%;
   z-index: 2;
-  margin-top: -270px;
+  margin-top: -390px;
   padding-top: 120px;
+  @media (max-width: 1101px) {
+    margin-top: -270px;
+  }
+  @media (max-width: 630px) {
+    margin-top: -400px;
+  }
 }

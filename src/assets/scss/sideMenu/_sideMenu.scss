@@ -1,7 +1,4 @@
 .side-menu {
-  background-image: url('~@/assets/elements/images/head.svg') no-repeat center;
-  background-size: contain;
-
   .offcanvas-body {
     padding-top: 250px;
     padding-bottom: 250px;
@@ -10,6 +7,11 @@
   .custom-offcanvas {
     width: 50% !important;
     transition: transform 0.3s ease-in-out;
+  }
+  .offcanvas {
+    background-image: url('@/assets/elements/images/head.svg');
+    background-position: center;
+    background-size: cover;
   }
 
   .custom-offcanvas.show {

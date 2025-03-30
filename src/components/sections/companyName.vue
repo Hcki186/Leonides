@@ -4,7 +4,12 @@
   <div class="compeny-name">
     <section class="orientation-section">
       <div class="background">
-        <img src="@/assets/elements/images/head.svg" alt="Head" class="head" />
+        <img
+          src="@/assets/elements/images/head.svg"
+          alt="Head"
+          class="head"
+          style="height: 100%; width: 50%"
+        />
         <img src="@/assets/elements/images/bg-needs-circles.svg" alt="Circles" class="circles" />
       </div>
       <div class="content">

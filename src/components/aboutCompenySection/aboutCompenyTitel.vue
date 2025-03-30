@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div class="welcome-wrapper container-md">
+  <div class="welcome-wrapper">
     <div class="background-image"></div>
     <div class="container-lg content-box">
       <h1>O SPOLOČNOSTI</h1>
