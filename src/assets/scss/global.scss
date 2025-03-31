@@ -18,3 +18,43 @@
 @forward 'contactMenu/ContactMenuInfo.scss';
 @forward 'contactMenu/ContactMenuInput.scss';
 @forward 'contactMenu/contactMenuFooter.scss';
+
+@font-face {
+  font-family: 'MostraNuova';
+  src:
+    url('../elements/fonts/MostraNuova-Regular.ttf') format('truetype'),
+    url('../elements/fonts/MostraNuova-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MostraNuova';
+  src:
+    url('../elements/fonts/MostraNuova-Bold.woff2') format('woff2'),
+    url('../elements/fonts/MostraNuova-Bold.woff') format('woff'),
+    url('../elements/fonts/MostraNuova-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MostraNuova';
+  src:
+    url('../elements/fonts/MostraNuova-light.woff2') format('woff2'),
+    url('../elements/fonts/MostraNuova-light.woff') format('woff'),
+    url('../elements/fonts/MostraNuova-light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: light;
+}
+
+body {
+  h1 {
+    font-family: 'MostraNuova', sans-serif;
+    font-weight: bold;
+  }
+  p {
+    font-family: 'MostraNuova', sans-serif;
+    font-weight: normal;
+  }
+}
